@@ -1,0 +1,8 @@
+defaults:
+  - dataset: dataset
+  - model: model
+  - training: training
+
+hydra:
+  run:
+    dir: ../logs/hydra_logs/${now:%Y-%m-%d}/${now:%H-%M-%S}
